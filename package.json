@@ -1,7 +1,7 @@
 {
-  "name": "bitcoinjs-lib",
-  "version": "1.2.0",
-  "description": "Client-side Bitcoin JavaScript library",
+  "name": "coinawesomejs-lib",
+  "version": "1.2.1",
+  "description": "Client-side CoinAwesome JavaScript library",
   "main": "./src/index.js",
   "keywords": [
     "bitcoin",
@@ -61,7 +61,7 @@
     "files": "test/*.js"
   },
   "scripts": {
-    "compile": "browserify ./src/index.js -s bitcoin | uglifyjs > bitcoinjs-min.js",
+    "compile": "browserify ./src/index.js -s bitcoin | uglifyjs > coinAWEjs-min.js",
     "compileDev": "browserify ./src/index.js -s bitcoin > coinAWE.js",
     "coverage": "istanbul cover _mocha -- test/*.js",
     "coveralls": "npm run-script coverage && coveralls < coverage/lcov.info",
