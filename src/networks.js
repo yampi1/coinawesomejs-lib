@@ -17,16 +17,16 @@ var networks = {
   },
   awesome: {
     magicPrefix: '\x18CoinAwesome Signed Message:\n',
-    // bip32: { // edit
-    //   public: 0x0488b21f,
-    //   private: 0x0488ade5
-    // },
-    pubKeyHash: 0x17, // good
-    scriptHash: 0x55, // edit
-    wif: 0x99, // edit
+    bip32: { // ok // same like bitcoin
+      public: 0x0488b21e,
+      private: 0x0488ade4
+    },
+    pubKeyHash: 23,// === 0x17, // ok
+    scriptHash: 83, // ok
+    wif: 153, // 
     dustThreshold: 0, // https://github.com/bitcoin/bitcoin/blob/v0.9.2/src/core.h#L151-L162
-    feePerKb: 10000, // https://github.com/bitcoin/bitcoin/blob/v0.9.2/src/main.cpp#L53
-    staticFee: 10000,
+    feePerKb: 10000000, // https://github.com/bitcoin/bitcoin/blob/v0.9.2/src/main.cpp#L53
+    staticFee: 10000000,
     estimateFee: estimateFee('awesome')
   },
   blackcoin: {
