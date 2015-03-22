@@ -81,7 +81,7 @@ console.log(key.toWIF())
 
 // Print your public key (toString defaults to a Bitcoin address)
 console.log(key.pub.getAddress().toString())
-// => 14bZ7YWde4KdRb5YN7GYkToz3EHVCvRxkF
+// => AP9f18oCFFPknsB8djdtauUw3jYnWctmD4
 ```
 
 
